@@ -7,6 +7,9 @@ export default defineUserConfig({
   title: "我的知识库",
   description: "个人知识管理与笔记",
 
+  // 部署在 /wiki/ 子路径
+  base: "/wiki/",
+
   bundler: viteBundler(),
 
   head: [
